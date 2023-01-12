@@ -1,2 +1,2 @@
-# StatisticsAnalysis_R
-Statistics Analysis (Regression, ANOVA, descriptive statistics) on R
+# StatisticsAnalysis in R
+Statistics Analysis (Regression, ANOVA, descriptive statistics) in R
