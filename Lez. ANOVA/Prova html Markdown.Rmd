@@ -1,0 +1,32 @@
+---
+title: "Prova html Markdown"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## R Markdown
+
+include = FALSE significa non stampare il codice R quando si crea il markdown
+il resto del codice non so a che cazzo serva ma faccio copia e incolla
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r}
+x<-rexp(100)
+x
+qqnorm(x)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r}
+hist(x, freq=F, col="yellow", main="Exponential density")
+```
+
